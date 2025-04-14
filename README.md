@@ -7,34 +7,8 @@ Native [InstantID](https://github.com/InstantID/InstantID) support for [ComfyUI]
 
 This extension differs from the many already available as it doesn't use *diffusers* but instead implements InstantID natively and it fully integrates with ComfyUI.
 
-# Sponsorship
-
-<div align="center">
-
-**[:heart: Github Sponsor](https://github.com/sponsors/cubiq) | [:coin: Paypal](https://paypal.me/matt3o)**
-
-</div>
-
-If you like my work and wish to see updates and new features please consider sponsoring my projects.
-
-- [ComfyUI IPAdapter Plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus)
-- [ComfyUI InstantID (Native)](https://github.com/cubiq/ComfyUI_InstantID)
-- [ComfyUI Essentials](https://github.com/cubiq/ComfyUI_essentials)
-- [ComfyUI FaceAnalysis](https://github.com/cubiq/ComfyUI_FaceAnalysis)
-
-Not to mention the documentation and videos tutorials. Check my **ComfyUI Advanced Understanding** videos on YouTube for example, [part 1](https://www.youtube.com/watch?v=_C7kR2TFIX0) and [part 2](https://www.youtube.com/watch?v=ijqXnW_9gzc)
-
-The only way to keep the code open and free is by sponsoring its development. The more sponsorships the more time I can dedicate to my open source projects.
-
-Please consider a [Github Sponsorship](https://github.com/sponsors/cubiq) or [PayPal donation](https://paypal.me/matt3o) (Matteo "matt3o" Spinelli). For sponsorships of $50+, let me know if you'd like to be mentioned in this readme file, you can find me on [Discord](https://latent.vision/discord) or _matt3o :snail: gmail.com_.
-
-## Important updates
-
-- **2024/02/27:** Added [noise injection](#noise-injection) in the negative embeds.
-
-- **2024/02/26:** Fixed a small but nasty bug. Results will be different and you may need to lower the CFG.
-
-- **2024/02/20:** I refactored the nodes so they are hopefully easier to use. **This is a breaking update**, the previous workflows won't work anymore.
+> [!IMPORTANT]  
+> **2025.04.14** - I do not use ComfyUI as my main way to interact with Gen AI anymore as a result I'm setting the repository in "maintenance only" mode. If there are crucial updates or PRs I might still consider merging them but I do not plan any consistent work on this repo.
 
 ## Basic Workflow
 
@@ -113,21 +87,6 @@ The noise helps reducing the "burn" effect.
 ## Other notes
 
 It works very well with SDXL Turbo/Lighting. Best results with community's checkpoints.
-
-
-## Current sponsors
-
-It's only thanks to generous sponsors that **the whole community** can enjoy open and free software. Please join me in thanking the following companies and individuals!
-
-### :trophy: Gold sponsors
-
-[![Kaiber.ai](https://f.latent.vision/imgs/kaiber.png)](https://kaiber.ai/)&nbsp; &nbsp;[![InstaSD](https://f.latent.vision/imgs/instasd.png)](https://www.instasd.com/)
-
-### :tada: Silver sponsors
-
-[![OperArt.ai](https://f.latent.vision/imgs/openart.png?r=1)](https://openart.ai/workflows)&nbsp; &nbsp;[![Finetuners](https://f.latent.vision/imgs/finetuners.png)](https://www.finetuners.ai/)&nbsp; &nbsp;[![Comfy.ICU](https://f.latent.vision/imgs/comfyicu.png?r=1)](https://comfy.icu/)
-
-### Other companies supporting my projects
 
 - [RunComfy](https://www.runcomfy.com/) (ComfyUI Cloud)
 

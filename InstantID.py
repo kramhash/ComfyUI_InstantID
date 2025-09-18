@@ -266,6 +266,7 @@ class InstantIDFaceAnalysis:
     CATEGORY = "InstantID"
 
     def load_insight_face(self, provider):
+        print(f"dir=${INSIGHTFACE_DIR}")
         model = FaceAnalysis(
             name="buffalo_l", root=INSIGHTFACE_DIR
         )  # alternative to buffalo_l

@@ -267,7 +267,7 @@ class InstantIDFaceAnalysis:
 
     def load_insight_face(self, provider):
         model = FaceAnalysis(
-            name="antelopev2", root=INSIGHTFACE_DIR
+            name="buffalo_l", root=INSIGHTFACE_DIR
         )  # alternative to buffalo_l
         model.prepare(ctx_id=0, det_size=(640, 640))
 
